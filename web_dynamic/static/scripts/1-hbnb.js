@@ -9,7 +9,6 @@ $(document).ready(function () {
     let amenity_name = $(this).data('name')
 
     if ($(this).is(':checked')) {
-      alert($(this).val());
       amenity_dict[amenity_id] = amenity_name;
     } else {
       delete amenity_dict[amenity_id];
