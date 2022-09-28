@@ -4,11 +4,11 @@
 document.ready(function() {
   let amenity_dict = {};
 
-  $('input:checkbox').bind('click', function(){
+  $(input[type='checkbox']).bind('click', function(){
     let amenity_id = $(this).data('id')
     let amenity_name = $(this).data('name')
 
-    if (this.checked) {
+    if ($(this).is(':checked')) {
       amenity_dict[amenity_id] = amenity_name;
     } else {
       delete amenity_dict[amenity_id];
