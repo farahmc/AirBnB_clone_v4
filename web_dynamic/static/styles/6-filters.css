@@ -48,6 +48,9 @@ button:hover {
     border-right: 1px solid #DDDDDD;
 }
 .amenities {
+    font-weight: 400;
+	font-size: 14px;
+	margin: 7px 0 3px 40px;
     height: 100%;
     width: 25%;
 }
