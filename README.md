@@ -160,9 +160,9 @@ Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
 
 ## Authors - v4
-Jacqueline Lu - [Github](https://github.com/Jql11) / [Email](4325@holbertonstudents.com)
-Farah McCurdy - [Github](https://github.com/farahmc) / [Email](4324@holbertonstudents.com)
-Karoline Silva - [Github](https://github.com/Karoline-S) / [Email](4280@holbertonstudents.com)
+Jacqueline Lu - [Github](https://github.com/Jql11) / [Email](4325@holbertonstudents.com)  
+Farah McCurdy - [Github](https://github.com/farahmc) / [Email](4324@holbertonstudents.com)  
+Karoline Silva - [Github](https://github.com/Karoline-S) / [Email](4280@holbertonstudents.com)  
 
 Second part of Airbnb: Joann Vuong
 ## License
