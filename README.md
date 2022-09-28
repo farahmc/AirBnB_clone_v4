@@ -159,6 +159,7 @@ Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://tw
 Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
 
+## Authors - v4
 Jacqueline Lu - [Github](https://github.com/Jql11) / [Email](4325@holbertonstudents.com)
 Farah McCurdy - [Github](https://github.com/farahmc) / [Email](4324@holbertonstudents.com)
 Karoline Silva - [Github](https://github.com/Karoline-S) / [Email](4280@holbertonstudents.com)
