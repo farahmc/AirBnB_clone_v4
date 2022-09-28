@@ -17,6 +17,6 @@ $(document).ready(function () {
     let amenity_list = $.map(amenity_dict, function (value) {
       return value;
     }).sort().join(', ');
-    $('div.amenities h4').text(amenity_list);
+    $('.div amenities h4').text(amenity_list);
   });  
 });
