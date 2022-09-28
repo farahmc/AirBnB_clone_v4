@@ -1,7 +1,7 @@
 // only load when document is ready
 // listen for changes on each input checkbox tag
 
-$document.ready(function () {
+$(document).ready(function () {
   let amenity_dict = {};
 
   $(input[type='checkbox']).bind('click', function () {
