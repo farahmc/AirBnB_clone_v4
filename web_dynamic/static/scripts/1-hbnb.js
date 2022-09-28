@@ -14,8 +14,9 @@ document.ready(function() {
       delete amenity_dict[amenity_id];
     }
 
-    let amenity_list = Array.from(Object.values(amenity_dict));
+    let amenity_list = $.map(amenity_dict, function (value) {
+      return value;
+    }).sort().join(', ');
     $('div.amenities h4').text(amenity_list);
-
   });  
 });
