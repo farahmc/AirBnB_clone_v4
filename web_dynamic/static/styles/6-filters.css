@@ -6,7 +6,6 @@
     border: 1px solid #DDDDDD;
     border-radius: 4px;
 }
-
 button {
     position: absolute;
     font-size: 18px;
@@ -38,7 +37,7 @@ button:hover {
 }
 .filters h4 {
     margin-left: 15%;
-    margin-top: 5px;
+    margin-top: 0;
     font-weight: 400;
     font-size: 14px;
 }
@@ -72,7 +71,7 @@ button:hover {
 .amenities .popover {
     padding: 10px 0;
     margin-left: -5px;
-    margin-top: -5px;
+    margin-top: 0%;
 }
 
 .amenities .popover ul{
