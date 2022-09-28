@@ -35,14 +35,13 @@ button:hover {
     margin-bottom: 0;
     font-weight: 600;
 }
-.container .filters h4 {
+.filters h4 {
     margin-left: 15%;
     margin-top: 0;
     font-weight: 400;
     font-size: 14px;
-    white-space: nowrap;
-	text-overflow: ellipsis;
 }
+
 .locations {
     height: 100%;
     width: 25%;
@@ -51,6 +50,11 @@ button:hover {
 .amenities {
     height: 100%;
     width: 25%;
+}
+
+.amenities h4 {
+    white-space: nowrap;
+	text-overflow: ellipsis;
 }
 
 .popover {
