@@ -1,10 +1,10 @@
 // only load when document is ready
 // listen for changes on each input checkbox tag
 
-document.ready(function() {
+$(document).ready(function () {
   let amenity_dict = {};
 
-  $(input[type='checkbox']).bind('click', function(){
+  $('input[type=checkbox]').bind('click', function () {
     let amenity_id = $(this).data('id')
     let amenity_name = $(this).data('name')
 
@@ -17,6 +17,6 @@ document.ready(function() {
     let amenity_list = $.map(amenity_dict, function (value) {
       return value;
     }).sort().join(', ');
-    $('div.amenities h4').text(amenity_list);
+    $('.amenities h4').text(amenity_list);
   });  
 });
