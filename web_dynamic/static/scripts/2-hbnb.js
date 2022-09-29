@@ -3,13 +3,17 @@
 
 $(document).ready(function () {
   $.ajax({
-    url:'http://0.0.0.0:5001/api/v1/status/'
+    url:'http://3ddcb621f547.3ebb58fb.hbtn-cod.io:5001/api/v1/status',
     type: 'get',
     dataType: 'json'
   })
   .done((data, status) => {
-    alert("data: " + data + "\nStatus: " + status);
-  })
+    if (data.status === 'OK') {
+      $('div#api_status').addClass('available');
+    } else {
+	$('div#api_status').removeClass('available');
+    };
+  });
 
   let amenity_dict = {};
 
