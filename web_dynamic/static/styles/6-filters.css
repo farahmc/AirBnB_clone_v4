@@ -53,7 +53,6 @@ button:hover {
 }
 
 .amenities > h4 {
-    color: red;
     white-space: nowrap; 
     overflow: hidden;
     text-overflow: ellipsis;  
