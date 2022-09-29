@@ -5,18 +5,19 @@ header {
     border-bottom: 1px solid #CCCCCC;
 }
 header .logo {
-    background-image: url("../images/logo.png") no-repeat;
+    background: url("../images/logo.png") no-repeat;
     margin-left: 20px;
     height: 100%;
 }
 header #api_status {
-    left: 500px;
+    float: right;
     height: 40px;
-    min-width: 40px;
-    border-radius: 50%
-    color: #cccccc
-    padding-right: 30px
+    width: 40px;
+    border-radius: 100%;
+    background-color: #CCCCCC;
+    margin-right: 30px;
+    margin-top: 15px;
 }
-#api_status .available {
-    background-color: #ff545f
+#api_status.available {
+    background-color: #FF545F;
 }
