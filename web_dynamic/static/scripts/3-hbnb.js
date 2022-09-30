@@ -45,7 +45,7 @@ $(document).ready(function () {
 	div_title_box.after(div_place_info);
 
 	const regex = /<br[^>]*>/gi
-	let div_place_description = $('<div>', {'class': 'description', text: place.description.replace(/<br[^>]*>/gi, "")});
+	let div_place_description = $('<div>', {'class': 'description', text: place.description});
 	div_place_info.after(div_place_description)
     } 
     section_places.html(articles);
